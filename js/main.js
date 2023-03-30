@@ -3,14 +3,14 @@ for(let i=1; i<=100;i++){
         if(i%5==0){
             //console.log("fizzbuzz");
             document.getElementById("boxContainer").innerHTML += `
-            <div class="square">
+            <div class="squareFizzBuzz">
                 <p>fizzbuzz</p>
             </div>
             `;
         }else{
             //console.log("fizz");
             document.getElementById("boxContainer").innerHTML += `
-            <div class="square">
+            <div class="squareFizz">
                 <p>fizz</p>
             </div>
             `;
@@ -18,14 +18,14 @@ for(let i=1; i<=100;i++){
     }else if(i%5==0){
         //console.log("buzz");
         document.getElementById("boxContainer").innerHTML += `
-        <div class="square">
+        <div class="squareBuzz">
             <p>buzz</p>
         </div>
         `;
     }else{
         //console.log(i);
         document.getElementById("boxContainer").innerHTML += `
-        <div class="square">
+        <div class="squareI">
             <p>${i}</p>
         </div>
         `;

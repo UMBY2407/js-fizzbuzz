@@ -18,10 +18,40 @@ body{
     width: 80%;
 }
 
-.square {
+.squareI {
     height: 100px;
     width: 100px;
     background-color: aqua;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.squareFizz {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(246, 255, 0);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.squareBuzz {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 140, 0);
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.squareFizzBuzz {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
